@@ -1,0 +1,3277 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar code */
+.navbar {
+    height: 12vh;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    height: 3rem;
+    width: 60px;
+    background-image: url(images/Лого\ 1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+
+.location {
+    height: 40px;
+    width: 160px;
+    background-image: url(images/Ваш\ город.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+}
+
+.timing {
+    height: 50px;
+    width: 200px;
+    background-image: url(images/time.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.phone {
+    height: 50px;
+    width: 200px;
+    background-image: url(images/phone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+.navbar button {
+    height: 50px;
+    width: 180px;
+    padding: 10px;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    border-radius: 30px;
+    background-color: #4991da;
+    border: none;
+    color: white;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .logo {
+        position: absolute;
+        left: 3%;
+        top: 24%;
+        width: 16%;
+        height: 86px;
+    }
+
+    .location {
+        position: absolute;
+        width: 20%;
+        top: 36%;
+        left: 20%;
+    }
+
+    .timing {
+        position: absolute;
+        width: 20%;
+        top: 15%;
+        left: 42%;
+        height: 100px;
+    }
+
+    .phone {
+        position: absolute;
+        top: 15%;
+        left: 63%;
+        height: 100px;
+    }
+
+    .navbar button {
+        position: absolute;
+        left: 84%;
+        top: 33%;
+        height: 40px;
+        width: 150px;
+    }
+}
+
+/* @media screen and (min-width: 1200px) {
+    .navbar {
+        height: 12vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .logo {
+        height: 3rem;
+        width: 60px;
+        background-image: url(images/Лого\ 1.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20%;
+        left: 18%;
+    }
+
+    .location {
+        height: 40px;
+        width: 160px;
+        background-image: url(images/Ваш\ город.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 20%;
+        left: 27%;
+    }
+
+    .timing {
+        height: 40px;
+        width: 190px;
+        background-image: url(images/time.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 23%;
+        left: 40%;
+    }
+
+    .phone {
+        height: 40px;
+        width: 190px;
+        background-image: url(images/phone.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 25%;
+        left: 53%;
+    }
+
+    .phone i {
+        color: #4991da;
+    }
+
+    .phone p {
+        position: absolute;
+        left: 30px;
+        min-width: max-content;
+        bottom: -15px;
+    }
+
+    .navbar button {
+        height: 50px;
+        width: 180px;
+        padding: 10px;
+        position: absolute;
+        top: 25%;
+        left: 70%;
+        border-radius: 30px;
+        background-color: #4991da;
+        border: none;
+        color: white;
+    }
+} */
+
+@media screen and (min-width: 300px) and (max-width: 667px) {
+    .navbar {
+        position: relative;
+        height: 210px;
+    }
+
+    .logo {
+        position: absolute;
+        left: -3%;
+        top: 3%;
+        width: 100px;
+        height: 60px;
+    }
+
+    .location {
+        position: absolute;
+        top: 35%;
+        height: 20px;
+        width: 175px;
+        left: 5%;
+    }
+
+    .timing {
+        position: absolute;
+        top: 28%;
+        left: 60%;
+        height: 46px;
+        width: 175px;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .phone {
+        position: absolute;
+        top: 53%;
+        left: 4%;
+        height: 58px;
+        width: 166px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar button {
+        position: absolute;
+        left: 63%;
+        top: 56%;
+        height: 50px;
+        width: 186px;
+    }
+}
+
+/* Hero section portion */
+
+.hero-section {
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+.div-curve {
+    background-color: #53a7db;
+    margin-left: 47%;
+    height: 88vh;
+    width: 53%;
+    border-radius: 800px 0px 0px 0px;
+    overflow-x: hidden;
+}
+
+.main-image1 {
+    background-image: url(images/Group\ 2.svg);
+    background-size: contain;
+    position: absolute;
+    top: 9%;
+    left: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80%;
+    width: 60vw;
+    z-index: 150;
+}
+
+.main-heading {
+    position: absolute;
+    top: 20%;
+    font-size: 40px;
+    left: 12%;
+}
+
+.main-heading span {
+    color: #53a7db;
+}
+
+.main-heading h6 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.main-heading button {
+    margin-top: 60px;
+    font-size: 18px;
+    background-color: #53a7db;
+    color: white;
+    padding: 18px;
+    border-radius: 30px;
+    border: none;
+    width: 70%;
+}
+
+.points {
+    background-image: url(images/Group\ 6.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 110%;
+    height: 250px;
+    width: 500px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .div-curve {
+        margin-left: 48%;
+        height: 50vh;
+        width: 52%;
+    }
+
+    .main-image1 {
+        position: absolute;
+        top: 6%;
+        left: 48%;
+        height: 85%;
+        width: 48vw;
+    }
+
+    .points {
+        top: 80%;
+        height: 250px;
+        width: 334px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .div-curve {
+        margin-left: 45%;
+        height: 80vh;
+        width: 55%;
+    }
+
+    .main-image1 {
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        height: 75%;
+        width: 60vw;
+    }
+
+    .main-heading {
+        position: absolute;
+        top: 17%;
+        font-size: 30px;
+        left: 7%;
+    }
+
+    .main-heading h6 {
+        font-size: 16px;
+        font-weight: lighter;
+        position: absolute;
+        top: 44%;
+    }
+
+    .main-heading button {
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .points {
+        top: 80%;
+        height: 250px;
+        width: 310px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .hero-section {
+        height: 80vh;
+        background-color: #f8f8f8;
+        width: 130%;
+    }
+
+    .div-curve {
+        display: none;
+    }
+
+    .main-image1 {
+        display: none;
+    }
+
+    .main-heading {
+        position: absolute;
+        top: 17%;
+        font-size: 35px;
+        left: 20%;
+    }
+
+    .main-heading h6 {
+        font-size: 16px;
+        font-weight: lighter;
+        position: absolute;
+        top: 44%;
+    }
+
+    .main-heading button {
+        margin: 50px 0px 0px -10px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .points {
+        top: 80%;
+        height: 250px;
+        width: 310px;
+        left: 2%;
+    }
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* Hero-Section-1 */
+
+.hero-section-1 {
+    height: 95vh;
+    width: 100vw;
+    position: relative;
+}
+
+.hero-section-1 h3 {
+    text-align: center;
+    padding: 80px 0px 40px 70px;
+    font-size: 30px;
+}
+
+.carosel {
+    position: absolute;
+    height: 70vh;
+    width: 80vw;
+    left: 10%;
+}
+
+.leftarrow {
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+}
+
+.rightarrow {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    font-size: 20px;
+}
+
+.div1 {
+    height: 65vh;
+    width: 25vw;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    box-shadow: 1px 1px 10px rgb(221, 218, 218);
+}
+
+.left-img {
+    height: 45vh;
+    width: 15vw;
+    position: absolute;
+    top: 6%;
+    left: 20%;
+    background-image: url(images/6414573-1569396312\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div1 p {
+    position: absolute;
+    top: 86%;
+    left: 35%;
+    text-align: center;
+}
+
+.right-image {
+    height: 65vh;
+    width: 40vw;
+    position: absolute;
+    top: 20px;
+    left: 40%;
+}
+
+.div2 {
+    height: 28vh;
+    width: 20vw;
+    position: absolute;
+    border: 1px solid rgb(243, 242, 242);
+    top: 10px;
+    left: 22px;
+}
+
+.div2:hover {
+    box-shadow: 1px 1px 10px rgb(221, 218, 218);
+}
+
+.div2 p {
+    position: absolute;
+    top: 83%;
+    left: 37%;
+}
+
+.img2 {
+    height: 21vh;
+    width: 12vw;
+    background-image: url(images/kg39nxb35\ 1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+}
+
+.div3 {
+    height: 28vh;
+    width: 20vw;
+    position: absolute;
+    border: 1px solid rgb(243, 242, 242);
+    top: 10px;
+    left: 60%;
+}
+
+.div3:hover {
+    box-shadow: 1px 1px 10px rgb(221, 218, 218);
+}
+
+.img3 {
+    height: 23vh;
+    width: 12vw;
+    background-image: url(images/Подключение\ посудомойки\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    left: 58px;
+}
+
+.div3 p {
+    position: absolute;
+    top: 83%;
+    left: 35%;
+}
+
+.div4 {
+    height: 28vh;
+    width: 20vw;
+    position: absolute;
+    border: 1px solid rgb(243, 242, 242);
+    top: 55%;
+    left: 42%;
+}
+
+.div4:hover {
+    box-shadow: 1px 1px 10px rgb(221, 218, 218);
+}
+
+.img4 {
+    height: 21vh;
+    width: 12vw;
+    background-image: url(images/remote\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 10px;
+    left: 65px;
+}
+
+.div4 p {
+    position: absolute;
+    top: 83%;
+    left: 38%;
+}
+
+.div5 {
+    height: 28vh;
+    width: 20vw;
+    position: absolute;
+    border: 1px solid rgb(243, 242, 242);
+    top: 55%;
+    left: 70%;
+}
+
+.div5:hover {
+    box-shadow: 1px 1px 10px rgb(221, 218, 218);
+}
+
+.img5 {
+    height: 21vh;
+    width: 12vw;
+    background-image: url(images/P864P\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 10px;
+    left: 65px;
+}
+
+.div5 p {
+    position: absolute;
+    top: 83%;
+    left: 32%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .hero-section {
+        overflow-x: hidden;
+    }
+
+    .leftarrow {
+        display: none;
+    }
+
+    .rightarrow {
+        display: none;
+    }
+
+    .carosel {
+        height: 120vh;
+        width: 130%;
+        left: 0;
+        overflow-x: hidden;
+    }
+
+    .div1 {
+        width: 90%;
+        height: 300px;
+    }
+
+    .left-img {
+        width: 80%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        left: 10%;
+    }
+
+    .right-image {
+        position: absolute;
+        top: 44%;
+        height: 450px;
+        width: 90%;
+        left: 30px;
+    }
+
+    .div2 {
+        height: 200px;
+        width: 45%;
+    }
+
+    .img2 {
+        position: absolute;
+        left: 20%;
+        width: 70%;
+        top: 0;
+    }
+
+    .div3 {
+        height: 200px;
+        width: 30%;
+    }
+
+    .img3 {
+        position: absolute;
+        width: 70%;
+        top: 0;
+    }
+
+    .div4 {
+        height: 200px;
+        width: 40%;
+        left: 9%;
+        top: 74%;
+    }
+
+    .img4 {
+        position: absolute;
+        width: 70%;
+        top: 0;
+    }
+
+    .div5 {
+        height: 200px;
+        width: 41%;
+        left: 53%;
+        top: 74%;
+    }
+
+    .img5 {
+        position: absolute;
+        width: 70%;
+        top: 0;
+    }
+
+    .hero-section-1 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    .carosel {
+        width: 120%;
+        position: absolute;
+        left: 0;
+    }
+
+    .hero-section-1 h3 {
+        position: relative;
+        left: 10%;
+    }
+
+    .div1 {
+        width: 40%;
+    }
+
+    .left-img {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 80%;
+        position: absolute;
+        left: 6%;
+    }
+
+    .div2 {
+        width: 60%;
+        position: absolute;
+        left: 20%;
+    }
+
+    .img2 {
+        width: 80%;
+        left: 10%;
+    }
+
+    .div3 {
+        width: 70%;
+        position: absolute;
+        left: 84%;
+    }
+
+    .img3 {
+        width: 80%;
+        left: 10%;
+    }
+
+    .div4 {
+        width: 20%;
+        position: absolute;
+        left: 47%;
+    }
+
+    .img4 {
+        width: 80%;
+        left: 10%;
+    }
+
+    .div5 {
+        width: 22%;
+        position: absolute;
+        left: 69%;
+        top: 50%;
+    }
+
+    .img5 {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .hero-section-1 {
+        height: 85vh;
+    }
+
+    .carosel {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    .div1 {
+        width: 40%;
+    }
+
+    .left-img {
+        width: 90%;
+        position: absolute;
+        left: 7%;
+    }
+
+    .right-image {
+        width: 50%;
+        position: absolute;
+        left: 46%;
+    }
+
+    .div2 {
+        width: 45%;
+    }
+
+    .img2 {
+        width: 80%;
+        left: 10%;
+    }
+
+    .div3 {
+        width: 45%;
+        left: 54%;
+    }
+
+    .img3 {
+        width: 80%;
+        left: 10%;
+    }
+
+    .div4 {
+        width: 22%;
+        left: 48%;
+        top: 50%;
+    }
+
+    .img4 {
+        width: 80%;
+        left: 10%;
+    }
+
+    .div5 {
+        width: 22%;
+        left: 73%;
+        top: 50%;
+    }
+
+    .img5 {
+        width: 75%;
+        left: 10%;
+    }
+}
+
+/* Section-3 */
+
+.section-3 {
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+}
+
+.description {
+    height: 10vh;
+    width: 40vw;
+    position: absolute;
+    top: 10px;
+    left: 25%;
+}
+
+.description h3,
+p {
+    text-align: left;
+}
+
+.section-3 button {
+    position: absolute;
+    left: 67%;
+    top: 10px;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    background-color: #53a7db;
+}
+
+.hero-section3 {
+    height: 40vh;
+    width: 80vw;
+    background-color: #53a7db;
+    position: relative;
+    top: 30%;
+    left: 10%;
+    z-index: 3;
+}
+
+.section-3-paragraph {
+    height: 15vh;
+    width: 43%;
+    padding: 50px 0px 0px 60px;
+    color: white;
+    font-size: 17px;
+    background-color: #53a7db;
+    top: 0%;
+    left: 6%;
+}
+
+.section-3-img {
+    background-image: url(images/Group\ 52.svg);
+    width: 52%;
+    height: 48vh;
+    position: absolute;
+    top: -38px;
+    left: 49%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#hero-section3-btn {
+    background-color: red;
+    position: absolute;
+    top: 75%;
+    left: 60px;
+    width: 20%;
+    padding: 17px;
+}
+
+.section-3-icon {
+    height: 140px;
+    width: 150px;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    background-image: url(images/Group\ 40.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .section-3 {
+        height: 10vh;
+        width: 100vw;
+        position: relative;
+        background-color: white;
+    }
+
+    .hero-section3 {
+        height: 1vh;
+        width: 69vw;
+        margin-top: 90%;
+        background-color: white;
+    }
+
+    .section-3-paragraph {
+        height: 1vh;
+        width: 73%;
+        position: absolute;
+        top: 18%;
+        left: 15%;
+    }
+
+    .description {
+        height: 10vh;
+        width: 70vw;
+        color: white;
+        position: absolute;
+        top: 10px;
+        left: 0%;
+    }
+
+    .description h3 {
+        font-size: 12px;
+    }
+
+    .description p {
+        display: none;
+    }
+
+    .section-3 button {
+        position: absolute;
+        left: 59%;
+        width: 40%;
+        top: 10px;
+        background-color: white;
+    }
+
+    #hero-section-3-btn {
+        position: absolute;
+        left: 14%;
+        width: 67%;
+        top: 146px;
+        background-color: red;
+    }
+
+    .section-3-paragraph {
+        display: none;
+    }
+
+    .section-3-paragraph h2 {
+        font-size: 22px;
+        color: white;
+    }
+
+    .section-3-icon {
+        display: none;
+    }
+
+    .section-3-paragraph button {
+        width: 66%;
+    }
+
+    .section-3-img {
+        height: 47vh;
+        background-image: url(images/Group\ 52.sg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 74%;
+        position: absolute;
+        top: 18%;
+        left: 10%;
+    }
+}
+
+@media screen and (min-width: 498px) and (max-width: 768px) {
+    .section-3 {
+        height: 48vh;
+        position: relative;
+        top: 60%;
+        left: 10%;
+    }
+
+    .description p {
+        display: none;
+    }
+
+    .description h3 {
+        width: 300px;
+        position: absolute;
+        right: 25%;
+    }
+
+    .section3-img {
+        width: 80%;
+        position: absolute;
+        left: 14%;
+        top: 13%;
+    }
+
+    .section-3-icon {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .section3-img {
+        width: 80%;
+        position: absolute;
+        left: 14%;
+        top: 12%;
+    }
+
+    .section-3-icon {
+        position: absolute;
+        top: 18%;
+        left: 9%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .section-3 {
+        height: 50vh;
+    }
+
+    .description p {
+        font-size: 22px;
+        position: absolute;
+        top: 66%;
+        left: -44%;
+    }
+
+    .section-3 button {
+        position: absolute;
+        left: 72%;
+        top: 26px;
+        font-size: 16px;
+        width: 200px;
+        padding: 20px;
+        color: white;
+        border: none;
+        border-radius: 40px;
+        background-color: #53a7db;
+    }
+
+    #hero-section3-btn {
+        background-color: red;
+        position: absolute;
+        top: 67%;
+        left: 52px;
+    }
+
+    .description h3 {
+        width: 463px;
+        font-size: 32px;
+        height: 111px;
+        position: absolute;
+        right: 25%;
+    }
+
+    .hero-section3 {
+        height: 23vh;
+        width: 100vw;
+        background-color: #53a7db;
+        position: relative;
+        top: 33%;
+        left: auto;
+    }
+
+    .section-3-paragraph {
+        height: 20vh;
+        width: 35%;
+        background-color: #53a7db;
+        top: 0%;
+        left: 6%;
+    }
+
+    .section-3-img {
+        background-image: url(images/Group\ 52.svg);
+        width: 50%;
+        height: 29vh;
+        position: absolute;
+        top: -37px;
+        left: 44%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .section-3-icon {
+        display: none;
+    }
+}
+
+/* section-4 */
+
+.section-4 {
+    height: 70vh;
+    width: 100%;
+    background-color: #53a7db;
+    padding: 3% 0px 0px 0px;
+    text-align: center;
+}
+
+.heading {
+    position: relative;
+    font-size: 27px;
+    color: white;
+}
+
+.heading span {
+    color: red;
+}
+
+.grid-container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: max-content;
+    padding: 17px 0px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    height: 160px;
+    border: none;
+}
+
+.grid-item h5 {
+    font-size: 15px;
+}
+
+.grid-item p {
+    font-size: 14px;
+    padding: 10px 0px 40px 0px;
+    text-align: left;
+}
+
+.grid-item h4 {
+    font-size: 14px;
+    color: red;
+}
+
+#grid-img1 {
+    background-color: red;
+    color: white;
+    position: relative;
+}
+
+#grid-img1::before {
+    content: "";
+    background-image: url(images/depositphotos_183385882-stock-photo-young-plumber-with-tool-bag\ 1.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.5;
+}
+
+#grid-img1 h5 {
+    font-size: 12px;
+    position: absolute;
+    top: 30px;
+}
+
+#grid-img1 p {
+    font-size: 14px;
+    text-align: left;
+    position: absolute;
+    top: 60px;
+}
+
+.grid-img2 {
+    background-image: url(images/sp-ok-plumber-min-560x660\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 46%;
+    position: absolute;
+    left: 54%;
+    top: 10px;
+}
+
+#grid-img3 {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+#grid-img3::before {
+    content: "";
+    background-image: url(images/back2.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.5;
+}
+
+#grid-img3 h5 {
+    font-size: 12px;
+    position: absolute;
+    top: 30px;
+}
+
+#grid-img3 p {
+    font-size: 14px;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+}
+
+.grid-img4 {
+    background-image: url(images/6414573-1569396312\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120px;
+    width: 46%;
+    position: absolute;
+    left: 59%;
+    top: 26%;
+}
+
+#grid-img5 {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+#grid-img5::before {
+    content: "";
+    background-image: url(images/diagnostika-med-ob\ 1.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.5;
+}
+
+#grid-img5 h5 {
+    font-size: 12px;
+    position: absolute;
+    top: 30px;
+}
+
+#grid-img5 p {
+    font-size: 14px;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+}
+
+.grid-img6 {
+    background-image: url(images/proverca_coda_\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120px;
+    width: 46%;
+    position: absolute;
+    left: 59%;
+    top: 26%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .grid-container {
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grid-item {
+        padding: 7px;
+    }
+
+    .grid-item h5 {
+        font-size: 13px;
+    }
+
+    .grid-item p {
+        font-size: 12px;
+    }
+
+    .grid-item h4 {
+        font-size: 12px;
+    }
+
+    #grid-img1 h5 {
+        font-size: 14px;
+    }
+
+    #grid-img1 p {
+        font-size: 12px;
+        text-align: left;
+        position: absolute;
+        top: 50px;
+    }
+
+    .grid-img2 {
+        position: absolute;
+        top: 25%;
+        left: 59%;
+        width: 40%;
+    }
+
+    #grid-img3 h5 {
+        font-size: 14px;
+    }
+
+    #grid-img3 p {
+        font-size: 12px;
+        text-align: left;
+        position: absolute;
+        top: 50px;
+    }
+
+    .grid-img4 {
+        position: absolute;
+        top: 34%;
+        left: 62%;
+        width: 40%;
+    }
+
+    #grid-img5 h5 {
+        font-size: 14px;
+    }
+
+    #grid-img5 p {
+        font-size: 12px;
+        text-align: left;
+        position: absolute;
+        top: 50px;
+    }
+
+    .grid-img6 {
+        position: absolute;
+        top: 37%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .section-4 {
+        height: 52vh;
+    }
+
+    .grid-container {
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-item {
+        padding: 16px;
+    }
+
+    .grid-item h5 {
+        font-size: 20px;
+    }
+
+    .grid-item p {
+        font-size: 17px;
+    }
+
+    .grid-item h4 {
+        font-size: 12px;
+    }
+
+    #grid-img1 h5 {
+        font-size: 18px;
+        position: absolute;
+        top: 5px;
+    }
+
+    #grid-img1 p {
+        font-size: 17px;
+        text-align: left;
+        position: absolute;
+        top: 34px;
+    }
+
+    .grid-img2 {
+        position: absolute;
+        top: 14%;
+        left: 59%;
+        width: 40%;
+    }
+
+    #grid-img3 h5 {
+        font-size: 18px;
+        position: absolute;
+        top: 5px;
+    }
+
+    #grid-img3 p {
+        font-size: 17px;
+        text-align: left;
+        position: absolute;
+        top: 34px;
+    }
+
+    .grid-img4 {
+        position: absolute;
+        top: 25%;
+        left: 62%;
+        width: 40%;
+    }
+
+    #grid-img5 h5 {
+        font-size: 18px;
+        position: absolute;
+        top: 5px;
+    }
+
+    #grid-img5 p {
+        font-size: 17px;
+        text-align: left;
+        position: absolute;
+        top: 34px;
+    }
+
+    .grid-img6 {
+        position: absolute;
+        top: 25%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    .section-4 {
+        /* height: 70vh; */
+        width: 120%;
+        background-color: #53a7db;
+        padding: 3% 0px 0px 0px;
+        text-align: center;
+    }
+
+    .grid-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-item {
+        padding: 7px;
+    }
+
+    .grid-item h5 {
+        font-size: 13px;
+    }
+
+    .grid-item p {
+        font-size: 12px;
+    }
+
+    .grid-item h4 {
+        font-size: 12px;
+    }
+
+    #grid-img1 h5 {
+        font-size: 14px;
+    }
+
+    #grid-img1 p {
+        font-size: 12px;
+        text-align: left;
+        position: absolute;
+        top: 50px;
+    }
+
+    .grid-img2 {
+        position: absolute;
+        top: 21%;
+        left: 59%;
+        width: 40%;
+    }
+
+    #grid-img3 h5 {
+        font-size: 14px;
+    }
+
+    #grid-img3 p {
+        font-size: 12px;
+        text-align: left;
+        position: absolute;
+        top: 50px;
+    }
+
+    .grid-img4 {
+        position: absolute;
+        top: 30%;
+        left: 62%;
+        width: 40%;
+    }
+
+    #grid-img5 h5 {
+        font-size: 14px;
+    }
+
+    #grid-img5 p {
+        font-size: 12px;
+        text-align: left;
+        position: absolute;
+        top: 50px;
+    }
+
+    .grid-img6 {
+        position: absolute;
+        top: 32%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .section-4 {
+        height: auto;
+        width: 130%;
+        padding: 3% 15px 0px 15px;
+        text-align: center;
+    }
+
+    .grid-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-item {
+        padding: 7px;
+    }
+
+    .grid-item h5 {
+        font-size: 13px;
+    }
+
+    .grid-item p {
+        font-size: 12px;
+    }
+
+    .grid-item h4 {
+        font-size: 12px;
+    }
+
+    #grid-img1 h5 {
+        font-size: 14px;
+    }
+
+    #grid-img1 p {
+        font-size: 12px;
+        text-align: left;
+        position: absolute;
+        top: 50px;
+    }
+
+    .grid-img2 {
+        position: absolute;
+        top: 21%;
+        left: 59%;
+        width: 40%;
+    }
+
+    #grid-img3 h5 {
+        font-size: 14px;
+    }
+
+    #grid-img3 p {
+        font-size: 12px;
+        text-align: left;
+        position: absolute;
+        top: 50px;
+    }
+
+    .grid-img4 {
+        position: absolute;
+        top: 30%;
+        left: 62%;
+        width: 40%;
+    }
+
+    #grid-img5 h5 {
+        font-size: 14px;
+    }
+
+    #grid-img5 p {
+        font-size: 12px;
+        text-align: left;
+        position: absolute;
+        top: 50px;
+    }
+
+    .grid-img6 {
+        position: absolute;
+        top: 32%;
+    }
+}
+
+/* Hero-section-5 */
+
+.hero-section-5 {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-section-5 h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-div-section5 {
+    height: 70vh;
+    width: 80%;
+    position: absolute;
+    top: 100px;
+    left: 12%;
+}
+
+/* step1  */
+
+.step1 {
+    height: 40%;
+    width: 30%;
+    border: 1px solid #53a7db;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    float: left;
+}
+
+.step1-description {
+    height: 80px;
+    width: 80px;
+    background-color: #53a7db;
+    position: absolute;
+    z-index: 1;
+    right: 85%;
+    bottom: 80%;
+    color: white;
+}
+
+.step1-description p {
+    padding-top: 8px;
+    text-align: left;
+}
+
+.step1-description-icon {
+    height: 60px;
+    width: 60px;
+    background-image: url(images/step1\ 1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 35%;
+    left: 25px;
+}
+
+.step1-description-para {
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.step1-description-para p {
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+}
+
+/* step2  */
+
+.step2 {
+    height: 40%;
+    width: 30%;
+    border: 1px solid #53a7db;
+    position: relative;
+    left: 5%;
+    top: 10px;
+    float: left;
+}
+
+.step2-description {
+    height: 80px;
+    width: 80px;
+    color: white;
+    background-color: #53a7db;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    right: 85%;
+    bottom: 80%;
+}
+
+.step2-description p {
+    padding-top: 8px;
+    text-align: left;
+}
+
+.step2-description-icon {
+    height: 60px;
+    width: 60px;
+    background-image: url(images/step2\ \(1\)\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 35%;
+    left: 25px;
+}
+
+.step2-description-para {
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.step2-description-para p {
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+}
+
+/* step3 */
+
+.step3 {
+    height: 40%;
+    width: 30%;
+    border: 1px solid #53a7db;
+    position: relative;
+    left: 68%;
+    top: 10px;
+}
+
+.step3-description {
+    height: 80px;
+    width: 80px;
+    color: white;
+    background-color: #53a7db;
+    position: absolute;
+    z-index: 1;
+    right: 85%;
+    bottom: 80%;
+}
+
+.step3-description p {
+    padding-top: 8px;
+    text-align: left;
+}
+
+.step3-description-icon {
+    height: 60px;
+    width: 60px;
+    background-image: url(images/step3\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 35%;
+    left: 25px;
+}
+
+.step3-description-para {
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.step3-description-para p {
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+}
+
+/* step4  */
+
+.step4 {
+    height: 40%;
+    width: 30%;
+    border: 1px solid #53a7db;
+    position: relative;
+    left: 20px;
+    top: 16%;
+    float: left;
+}
+
+.step4-description {
+    height: 80px;
+    width: 80px;
+    background-color: #53a7db;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    right: 85%;
+    bottom: 80%;
+}
+
+.step4-description p {
+    padding-top: 8px;
+    text-align: left;
+}
+
+.step4-description-icon {
+    height: 60px;
+    width: 60px;
+    background-image: url(images/step4\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 35%;
+    left: 25px;
+}
+
+.step4-description-para {
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.step4-description-para p {
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+}
+
+/* step5 */
+
+.step5 {
+    height: 40%;
+    width: 30%;
+    border: 1px solid #53a7db;
+    position: relative;
+    left: 5%;
+    top: 16%;
+    float: left;
+}
+
+.step5-description {
+    height: 80px;
+    width: 80px;
+    color: white;
+    background-color: #53a7db;
+    position: absolute;
+    z-index: 1;
+    right: 85%;
+    bottom: 80%;
+}
+
+.step5-description p {
+    padding-top: 8px;
+    text-align: left;
+}
+
+.step5-description-icon {
+    height: 60px;
+    width: 60px;
+    background-image: url(images/step5\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 35%;
+    left: 25px;
+}
+
+.step5-description-para {
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.step5-description-para p {
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+}
+
+/* step6 */
+
+.step6 {
+    height: 40%;
+    width: 30%;
+    border: 1px solid #53a7db;
+    position: relative;
+    left: 68%;
+    top: 16%;
+}
+
+.step6-description {
+    height: 80px;
+    width: 80px;
+    color: white;
+    background-color: #53a7db;
+    position: absolute;
+    z-index: 1;
+    right: 85%;
+    bottom: 80%;
+}
+
+.step6-description p {
+    padding-top: 8px;
+    text-align: left;
+}
+
+.step6-description-icon {
+    height: 60px;
+    width: 60px;
+    background-image: url(images/step6\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 35%;
+    left: 25px;
+}
+
+.step6-description-para {
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.step6-description-para p {
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .hero-section-5 {
+        height: 90vh;
+        width: 120%;
+    }
+
+    .main-div-section5 {
+        height: 100vh;
+        width: 90%;
+        margin: 40px -22px;
+    }
+
+    .step1 {
+        height: 27%;
+        width: 40%;
+        position: relative;
+        left: 40px;
+        top: 10px;
+        float: left;
+    }
+
+    .step1-description {
+        height: 60px;
+        width: 60px;
+    }
+
+    .step1-description p {
+        padding-top: 8px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .step1-description-icon {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        background-size: contain;
+        top: 10%;
+        left: 55px;
+    }
+
+    .step1-description-para {
+        height: 100px;
+        width: 140px;
+        top: 40%;
+        left: 10%;
+    }
+
+    .step1-description-para p {
+        text-align: center;
+        font-size: 11px;
+    }
+
+    /* step2  */
+
+    .step2 {
+        height: 27%;
+        width: 40%;
+        position: relative;
+        left: 20%;
+        top: 10px;
+        float: left;
+    }
+
+    .step2-description {
+        height: 60px;
+        width: 60px;
+    }
+
+    .step2-description p {
+        padding-top: 8px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .step2-description-icon {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        background-size: contain;
+        top: 15%;
+        left: 55px;
+    }
+
+    .step2-description-para {
+        height: 100px;
+        width: 140px;
+        top: 40%;
+        left: 10%;
+    }
+
+    .step2-description-para p {
+        text-align: center;
+        font-size: 11px;
+    }
+
+    /* step3 */
+
+    .step3 {
+        height: 27%;
+        width: 40%;
+        position: relative;
+        left: 10%;
+        top: 6%;
+        float: left;
+    }
+
+    .step3-description {
+        height: 60px;
+        width: 60px;
+    }
+
+    .step3-description p {
+        padding-top: 8px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .step3-description-icon {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        background-size: contain;
+        top: 10%;
+        left: 55px;
+    }
+
+    .step3-description-para {
+        height: 100px;
+        width: 140px;
+        top: 40%;
+        left: 10%;
+    }
+
+    .step3-description-para p {
+        text-align: center;
+        font-size: 11px;
+    }
+
+    /* step4  */
+
+    .step4 {
+        height: 27%;
+        width: 40%;
+        position: relative;
+        left: 20%;
+        top: 6%;
+        float: left;
+    }
+
+    .step4-description {
+        height: 60px;
+        width: 60px;
+    }
+
+    .step4-description p {
+        padding-top: 8px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .step4-description-icon {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        background-size: contain;
+        top: 10%;
+        left: 55px;
+    }
+
+    .step4-description-para {
+        height: 100px;
+        width: 140px;
+        top: 40%;
+        left: 10%;
+    }
+
+    .step4-description-para p {
+        text-align: center;
+        font-size: 11px;
+    }
+
+    /* step5 */
+
+    .step5 {
+        height: 27%;
+        width: 40%;
+        position: relative;
+        left: 10%;
+        top: 11%;
+        float: left;
+    }
+
+    .step5-description {
+        height: 60px;
+        width: 60px;
+    }
+
+    .step5-description p {
+        padding-top: 8px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .step5-description-icon {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        background-size: contain;
+        top: 10%;
+        left: 55px;
+    }
+
+    .step5-description-para {
+        height: 100px;
+        width: 140px;
+        top: 40%;
+        left: 10%;
+    }
+
+    .step5-description-para p {
+        text-align: center;
+        font-size: 11px;
+    }
+
+    /* step6 */
+
+    .step6 {
+        height: 27%;
+        width: 40%;
+        position: relative;
+        left: 20%;
+        top: 11%;
+        float: left;
+    }
+
+    .step6-description {
+        height: 60px;
+        width: 60px;
+    }
+
+    .step6-description p {
+        padding-top: 8px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .step6-description-icon {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        background-size: contain;
+        top: 10%;
+        left: 55px;
+    }
+
+    .step6-description-para {
+        height: 100px;
+        width: 140px;
+        top: 40%;
+        left: 10%;
+    }
+
+    .step6-description-para p {
+        text-align: center;
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .hero-section-5 {
+        height: 82vh;
+        width: 100%;
+    }
+
+    .hero-section-5 h3 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .main-div-section5 {
+        height: 70vh;
+        width: 88%;
+        margin: 50px;
+        position: absolute;
+        left: 15px;
+    }
+
+    /* step1  */
+
+    .step1 {
+        height: 40%;
+        width: 30%;
+        position: relative;
+        left: 20px;
+        top: 10px;
+        float: left;
+    }
+
+    .step1-description {
+        height: 80px;
+        width: 80px;
+        background-color: #53a7db;
+        position: absolute;
+        top: -29px;
+        z-index: 1;
+        right: 80%;
+        bottom: 80%;
+        color: white;
+    }
+
+    .step1-description p {
+        padding-top: 8px;
+        text-align: left;
+    }
+
+    .step1-description-icon {
+        height: 60px;
+        width: 60px;
+        background-image: url(images/step1\ 1.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 15%;
+        left: 100px;
+    }
+
+    .step1-description-para {
+        height: 100px;
+        width: 180px;
+        position: absolute;
+        top: 37%;
+        left: 25%;
+    }
+
+    .step1-description-para p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    /* step2  */
+
+    .step2 {
+        height: 40%;
+        width: 30%;
+        position: relative;
+        left: 47px;
+        top: 10px;
+        float: left;
+    }
+
+    .step2-description {
+        height: 80px;
+        width: 80px;
+        background-color: #53a7db;
+        position: absolute;
+        top: -29px;
+        z-index: 1;
+        right: 80%;
+        bottom: 80%;
+        color: white;
+    }
+
+    .step2-description p {
+        padding-top: 8px;
+        text-align: left;
+    }
+
+    .step2-description-icon {
+        height: 60px;
+        width: 60px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 15%;
+        left: 100px;
+    }
+
+    .step2-description-para {
+        height: 100px;
+        width: 180px;
+        top: 37%;
+        left: 25%;
+    }
+
+    .step2-description-para p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    /* step3 */
+
+    .step3 {
+        height: 40%;
+        width: 30%;
+        position: relative;
+        left: 66px;
+        top: 10px;
+        float: left;
+    }
+
+    .step3-description {
+        height: 80px;
+        width: 80px;
+        background-color: #53a7db;
+        position: absolute;
+        top: -29px;
+        z-index: 1;
+        right: 80%;
+        bottom: 80%;
+        color: white;
+    }
+
+    .step3-description p {
+        padding-top: 8px;
+        text-align: left;
+    }
+
+    .step3-description-icon {
+        height: 60px;
+        width: 60px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 15%;
+        left: 100px;
+    }
+
+    .step3-description-para {
+        height: 100px;
+        width: 180px;
+        position: absolute;
+        top: 37%;
+        left: 25%;
+    }
+
+    .step3-description-para p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    /* step4  */
+
+    .step4 {
+        height: 40%;
+        width: 30%;
+        position: relative;
+        left: 20px;
+        top: 71px;
+        float: left;
+    }
+
+    .step4-description {
+        height: 80px;
+        width: 80px;
+        background-color: #53a7db;
+        position: absolute;
+        top: -29px;
+        z-index: 1;
+        right: 80%;
+        bottom: 80%;
+        color: white;
+    }
+
+    .step4-description p {
+        padding-top: 8px;
+        text-align: left;
+    }
+
+    .step4-description-icon {
+        height: 60px;
+        width: 60px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 15%;
+        left: 100px;
+    }
+
+    .step4-description-para {
+        height: 100px;
+        width: 180px;
+        position: absolute;
+        top: 37%;
+        left: 25%;
+    }
+
+    .step4-description-para p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    /* step5 */
+
+    .step5 {
+        height: 40%;
+        width: 30%;
+        position: relative;
+        left: 50px;
+        top: 66px;
+        float: left;
+    }
+
+    .step5-description {
+        height: 80px;
+        width: 80px;
+        background-color: #53a7db;
+        position: absolute;
+        top: -29px;
+        z-index: 1;
+        right: 80%;
+        bottom: 80%;
+        color: white;
+    }
+
+    .step5-description p {
+        padding-top: 8px;
+        text-align: left;
+    }
+
+    .step5-description-icon {
+        height: 60px;
+        width: 60px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 15%;
+        left: 100px;
+    }
+
+    .step5-description-para {
+        height: 100px;
+        width: 180px;
+        position: absolute;
+        top: 37%;
+        left: 25%;
+    }
+
+    .step5-description-para p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    /* step6 */
+
+    .step6 {
+        height: 40%;
+        width: 30%;
+        position: relative;
+        left: 68px;
+        top: 62px;
+        float: left;
+    }
+
+    .step6-description {
+        height: 80px;
+        width: 80px;
+        background-color: #53a7db;
+        position: absolute;
+        top: -29px;
+        z-index: 1;
+        right: 80%;
+        bottom: 80%;
+        color: white;
+    }
+
+    .step6-description p {
+        padding-top: 8px;
+        text-align: left;
+    }
+
+    .step6-description-icon {
+        height: 60px;
+        width: 60px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 15%;
+        left: 100px;
+    }
+
+    .step6-description-para {
+        height: 100px;
+        width: 180px;
+        position: absolute;
+        top: 37%;
+        left: 25%;
+    }
+
+    .step6-description-para p {
+        text-align: left;
+        font-size: 20px;
+    }
+}
+
+/* hero-section-6 */
+
+.hero-section6 {
+    height: 41vh;
+    width: 100vw;
+    background-color: #53a7db;
+    position: relative;
+}
+
+.section-6-paragraph {
+    height: 35vh;
+    width: 34%;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+}
+
+.section-6-paragraph h2 {
+    font-size: 28px;
+    color: white;
+}
+
+.section-6-paragraph p {
+    text-align: left;
+    color: white;
+}
+
+.section-6-paragraph button {
+    position: absolute;
+    top: 60%;
+    padding: 15px;
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.section-6-img {
+    height: 43vh;
+    width: 140%;
+    background-image: url(images/Group\ 54.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -51px;
+    left: 110%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .hero-section6 {
+        height: 67vh;
+        width: 130vw;
+        margin-top: 48%;
+        background-color: #53a7db;
+        position: relative;
+    }
+
+    .section-6-paragraph {
+        height: 35vh;
+        width: 66%;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+    }
+
+    .section-6-paragraph h2 {
+        font-size: 22px;
+        color: white;
+    }
+
+    .section-6-paragraph button {
+        width: 66%;
+    }
+
+    .section-6-img {
+        height: 43vh;
+        width: 95%;
+        top: 163px;
+        left: -7%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .hero-section6 {
+        height: 22vh;
+        width: 100vw;
+        background-color: #53a7db;
+        position: relative;
+    }
+
+    .section-6-paragraph {
+        height: 20vh;
+        width: 33%;
+        background-color: #53a7db;
+        top: 0%;
+        left: 8%;
+        padding-top: 20px;
+    }
+
+    .section-6-img {
+        height: 29vh;
+    }
+}
+
+/* Section-7 */
+
+.hero-section7 {
+    height: 60vh;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.main-section-7 {
+    height: 50vh;
+    width: 84%;
+    margin: 0 auto;
+    padding: 30px 0px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.hero-section7 p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.child1 {
+    height: 100%;
+    width: 32%;
+    background-image: url(images/1\ Шаг.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.child2 {
+    height: 113%;
+    width: 32%;
+    background-image: url(images/1\ Шаг\ \(1\).png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.child3 {
+    height: 100%;
+    width: 32%;
+    background-image: url(images/1\ Шаг\ \(2\).png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .hero-section7 {
+        height: 100vh;
+        width: 118%;
+        padding-top: 2%;
+    }
+
+    .main-section-7 {
+        height: 100vh;
+        width: 100%;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child1 {
+        height: 300%;
+        width: 100%;
+    }
+
+    .child2 {
+        height: 350%;
+        width: 100%;
+    }
+
+    .child3 {
+        height: 300%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .hero-section7 {
+        height: 100vh;
+        width: 100%;
+        padding-top: 2%;
+    }
+
+    .main-section-7 {
+        height: 100vh;
+        width: 100%;
+        margin: 0px;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child1 {
+        height: 300%;
+        width: 100%;
+    }
+
+    .child2 {
+        height: 350%;
+        width: 100%;
+    }
+
+    .child3 {
+        height: 300%;
+        width: 100%;
+    }
+}
+
+/* Section-8  */
+
+.hero-section8{
+    height: 60vh;
+    width: 100vw;
+    background-color: #53a7db;
+    padding: 3% 0px 0px 0px;
+}
+.main-section8{
+    height: 40vh;
+    width: 82vw;
+    /* margin: 0 auto; */
+    background-color: #53a7db;
+    position: relative;
+    top: 20px;
+    left: 10%;
+    padding:  10px 0px 0px 0px;
+}
+.hero-section-8-heading{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.section-8-child1{
+    height: 65px;
+    width: 47%;
+    position: absolute;
+    left: 2%;
+    background-color: white;
+}
+.section-8-child1 p{
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    padding-left: 40px;
+    text-align: left;
+}
+#icon1{
+    position: absolute;
+    left: 230%;
+}
+.section-8-child2{
+    height: 65px;
+    width: 47%;
+    position: absolute;
+    left: 50%;
+    background-color: white;
+}
+.section-8-child2 p{
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+#icon2{
+    position: absolute;
+    left: 230%;
+}
+.section-8-child3{
+    height: 65px;
+    width: 47%;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    background-color: white;
+}
+.section-8-child3 p{
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+#icon3{
+    position: absolute;
+    left: 230%;
+}
+.section-8-child4{
+    height: 160px;
+    width: 47%;
+    top: 30%;
+    position: absolute;
+    left: 50%;
+    background-color: white;
+}
+.section-8-child4 p{
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+#icon4{
+    position: absolute;
+    left: 230%;
+}
+.section-8-paragraph-detail{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    font-size: 13px;
+}
+.section-8-child5{
+    height: 65px;
+    width: 47%;
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    background-color: white;
+}
+.section-8-child5 p{
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    padding-left: 40px;
+    text-align: left;
+}
+#icon5{
+    position: absolute;
+    left: 230%;
+}
+@media screen and (min-width:375px) and (max-width:667px) {
+    .hero-section8{
+        height: 80vh;
+        width: 130vw;
+        margin-top: 10%;
+    }
+    .main-section8{
+        height: 80vh;
+        width: 130vw;
+        margin: 0px;
+        position: relative;
+    top: 20px;
+    left: 0%;
+    }
+    .section-8-child1{
+        height: 65px;
+        width: 93%;
+        top: 2%;
+        left: 3%;
+    }
+    .section-8-child1 p{
+        padding-left: 20px;
+    }
+    #icon1{
+        position: absolute;
+        left: 170%;
+    }
+    .section-8-child2{
+        height: 65px;
+        width: 93%;
+        top: 17%;
+        left: 3%;
+    }
+    .section-8-child2 p{
+        padding-left: 20px;
+    }
+    #icon2{
+        position: absolute;
+        left: 170%;
+    }
+    .section-8-child3{
+        height: 65px;
+        width: 93%;
+        top: 32%;
+        left: 3%;
+    }
+    .section-8-child3 p{
+        padding-left: 20px;
+    }
+    #icon3{
+        position: absolute;
+        left: 170%;
+    }
+    .section-8-child4{
+        height: 150px;
+        width: 93%;
+        top: 62%;
+        left: 3%;
+    }
+    .section-8-child4 p{
+        font-size: 20px;
+        top: 10px;
+        padding-left: 20px;
+        }
+    
+    #icon4{
+        top: 110px;
+        left: 73%;  
+    }
+    .section-8-paragraph-detail{
+        top: 25%;
+        left: 5%;
+        font-size: 12px;
+    }
+    .section-8-child5{
+        height: 65px;
+        width: 93%;
+        top: 47%;
+        left: 3%;
+    }
+    .section-8-child5 p{
+        padding-left: 20px;
+    }
+    #icon5{
+        left: 170%;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1366px) {
+    .hero-section8{
+        height: 35vh;
+        width: 100vw;
+        margin-top: 40px;
+    }
+    .main-section8{
+        height: 30vh;
+        width: 100vw;
+        position: relative;
+         top: 20px;
+         left: 0%;
+        margin: 0px;
+    }
+    .section-8-child1{
+        height: 80px;
+        top: 10%;
+    }
+    .section-8-child1 p{
+        font-size: 18px;
+        position: absolute;
+    }
+    #icon1{
+        left: 165%;
+    }
+    .section-8-child2{
+        height: 80px;
+        top: 10%;
+    }
+    .section-8-child2 p{
+        font-size: 18px;
+        position: absolute;
+    }
+    #icon2{
+        left: 165%;
+    }
+    .section-8-child3{
+        height: 80px;
+        top: 35%;
+    }
+    .section-8-child3 p{
+        font-size: 18px;
+        position: absolute;
+    }
+    #icon3{
+        left: 165%;
+    }
+    
+    .section-8-child4{
+        height: 180px;
+        top: 35%;
+    }
+    .section-8-child4 p{
+        font-size: 18px;
+        position: absolute;
+    }
+    #icon4{
+        left: 165%;
+    }
+.section-8-paragraph-detail{
+    position: absolute;
+    top:30%;
+    left: 8%;
+    font-size: 13px;
+}
+
+.section-8-child5{
+    height: 80px;
+    top: 59%;
+}
+.section-8-child5 p{
+    font-size: 18px;
+    position: absolute;
+}
+#icon5{
+    left: 165%;
+}
+}
+
+/* Section-9 */
+
+
+.hero-section-9{
+    height: 60vh;
+    width: 100%;
+    margin-top: 5%;
+    position: relative;
+}
+.map-heading{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.map-heading p{
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+.section-9-heading1{
+    height: 40px;
+    width: 180px;
+    background-image: url(images/Ваш\ город.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.section-9-heading2{
+    height: 50px;
+    width: 165px;
+    background-image: url(images/time.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+.section-9-heading3{
+    height: 70px;
+    width: 140px;
+    background-image: url(images/phone.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 190px;
+    left: 55px;
+}
+.map-heading button{
+    position: absolute;
+    top: 80%;
+    left: 55px;
+    height: 40px;
+    width: 53%;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #53a7db;
+}
+
+@media screen and (min-width:375px) and (max-width:667px) {
+    
+.hero-section-9{
+    height: 60vh;
+    width: 120%;
+    margin-top: 12%;
+}
+.map-heading{
+    height: 230px;
+    width: 200px;
+    top: 25%;
+    left: 3%;
+}
+.map-heading p{
+    font-size: 15px;
+    top: 20px;
+    left: 50px;
+}
+.section-9-heading1{
+    height: 20px;
+    width: 128px;
+    top: 55px;
+    left: 46px;
+}
+.section-9-heading2{
+    height: 37px;
+    width: 114px;
+    top: 83px;
+    left: 50px;
+}
+
+.section-9-heading3{
+    height: 44px;
+    width: 100px;
+    top: 125px;
+    left: 50px;
+}
+.map-heading button{
+    font-size: 8px;
+    left: 50px;
+    height: 27px;
+    width: 50%;
+}
+}
+@media screen and (min-width:1024px) and (max-width:1366px) {   
+.map-heading{
+        top: 32%;
+        left: 9%;
+    }
+}
+
+
+/* Footer  */
+
+.footer{
+    height: 15vh;
+    width: 100%;
+    background-color: #F5F7F9;
+    position: relative;
+}
+.footer p{
+    position: absolute;
+    left: 25%;
+    font-size: 13px;
+    top: 40px;
+    color: gray;
+}
+.footer h4{
+    position: absolute;
+    left: 70%;
+    font-size: 13px;
+    top: 45px;
+    font-weight: lighter;
+    color: gray;
+}
+.footer-logo{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 20%;
+    background-image: url(images/Лого\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media screen and (min-width:1024px) and (max-width:1366px) {
+    .footer{
+        height: 8vh;
+    }
+    .footer p{
+        position: absolute;
+        left: 27%;
+    }
+}
+@media screen and (min-width:375px) and (max-width:667px) {
+    .footer{
+        height: 10vh;
+        width: 130%;
+    }
+    .footer-logo{
+    height: 40px;
+    width: 40px;
+    top: 20px;
+    left: 2%;
+    }
+    .footer h4{
+        font-size: 7px;
+        left: 70%;
+        top: 35px;
+    }
+    .footer p{
+        font-size: 7px;
+        left: 13%;
+        top: 30px;
+    }
+}
